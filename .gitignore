@@ -1,0 +1,17 @@
+# Build output
+/build/
+/cmake-build-*/
+/bin/
+
+# Local model weights — large; download separately (see README)
+/models/*
+!/models/README.md
+
+# IDE
+.vscode/ipch/
+.vscode/*.log
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
